@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angularPdfTry'`, () => {
+  it(`should have as title 'angular-pdf-print'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angularPdfTry');
+    expect(app.title).toEqual('angular-pdf-print');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('angularPdfTry app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('angular-pdf-print app is running!');
   });
 });
