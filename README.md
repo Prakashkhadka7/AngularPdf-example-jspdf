@@ -2,7 +2,6 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.0.
 
- Dynamic data printing in angular. Backend api is also within the folder. Run it using json server and print the pdf.d
 
 ## Development server
 
